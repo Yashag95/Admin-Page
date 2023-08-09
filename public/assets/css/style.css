@@ -1,0 +1,158 @@
+.breadcrumb {
+        background-color: transparent;
+        margin-bottom: 0;
+    }
+    .breadcrumb-two .breadcrumb {
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+    }
+    .breadcrumb-two .breadcrumb li {
+        float: left;
+    }
+    .breadcrumb-two .breadcrumb-item + .breadcrumb-item::before {
+        color: #fff;
+    }
+    .breadcrumb-two .breadcrumb li a {
+        color: #094a66;
+        text-decoration: none;
+        padding: 6px 0 6px 40px;
+        background: #dcdcdc;
+        position: relative;
+        display: block;
+        float: left;
+        font-size: 13px;
+    }
+    .breadcrumb-two .breadcrumb li a:after {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 16px solid transparent;
+        border-bottom: 16px solid transparent;
+        border-left: 8px solid #dcdcdc;
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        left: 100%;
+        z-index: 2;
+    }
+    .breadcrumb-two .breadcrumb li a:before {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 25px solid #1c4978;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        margin-left: 1px;
+        left: 100%;
+        z-index: 1;
+    }
+    .breadcrumb-two .breadcrumb li:last-child a:before {
+        margin-left: -6px;
+    }
+    .breadcrumb-two .breadcrumb li:first-child a {
+        padding-left: 10px;
+        padding-right: 7px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+    .breadcrumb-two .breadcrumb li.active a {
+        background: #1c4978;
+        color: #fff;
+    }
+    .breadcrumb-two .breadcrumb li.active a:after {
+        border-left-color: #1c4978;
+    }
+    .breadcrumb-two .breadcrumb li:last-child a {
+        pointer-events: none;
+        cursor: default;
+        padding-left: 20px;
+        padding-right: 10px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .breadcrumb-two .breadcrumb li:last-child a:after {
+        border: none;
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        float: none;
+        padding-right: 0;
+        color: #6c757d;
+        content: "/";
+    }
+    .page-title-box{
+        margin-left: 10px;
+    }
+    .swal-modal {
+        width: 360px;
+
+      }
+    .swal-text {
+          text-align: center;
+      }
+    .swal-icons {
+        font-size: 20px;
+     }
+    .swal-title {
+        font-size: 14px;
+        padding: 10px;
+        display: block;
+        margin: 16px;
+        text-align: center;
+        color: #61534e;
+    }
+    .swal-button {
+        padding: 6px 14px;
+        border-radius: 2px;
+        font-size: 12px;
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+      }
+
+
+.eyediv{position:relative;}
+    #lock{
+        position:absolute;
+        right:3%;
+        top:35%;
+        cursor: pointer;
+    }
+    .footer{
+        position: relative;
+    }
+    .card{
+        -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+        -moz-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+        box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        border-top: 3px solid #0052a8;
+    }
+    .h2 {
+        font-weight: 700;
+        font-size: 22px;
+        color: #021937;
+        margin: 10px 0px 30px 0;
+    }
+    .form-control{
+        height: 40px;
+    }
+    .font-add{
+        width: 80px;
+        height: 40px;
+
+        background-image: linear-gradient(95deg, #525252 10%, #01377ea3 50%);
+        color: #fff;
+        border-radius: 0.25rem 0 0 0.25rem;
+        font-weight: 600;
+        border: 1px;
+        user-select: none;
+    }
+    .font-add canvas{
+        height: 21px;
+    }
